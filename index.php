@@ -3,6 +3,7 @@
 <head>
 	<title>welcome</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
 <body>
@@ -11,7 +12,20 @@
 
 		    
         .bot{
-            color: white;
+             color: white;
+    		background: #08088A;
+    		border-collapse: collapse;
+    		width: 50%;
+    		padding: 20px;
+    		text-align: center;
+      		border-radius: 20px 20px 20px 20px;
+    		margin: 0 auto;
+        }
+        .bot h1{
+            font-family: 'Oleo Script', cursive;
+        }
+        #con_flu{
+        	 color: white;
             background: #08088A;
             border-collapse: collapse;
             width: 455px;
@@ -24,10 +38,24 @@
             
             border-radius: 20px 20px 20px 20px;
         }
-        .bot h1{
-            font-family: 'Oleo Script', cursive;
-        }
 
+
+        @media (max-width: 575.98px) { 
+
+        	#con_flu{
+        		width:80%;
+       			 }
+       		#nav_tit{
+        		font-size: 25px;
+        		text-align: center;
+       			 }
+       		#btn_dash{
+       			margin-left: 75px;
+       			width: 100%;
+       			display: block;
+       		}
+
+         }
 	</style>
 
 
@@ -66,17 +94,16 @@
 
 
 
-	<nav class="navbar navbar-light" style="background-color: #08088A">
+	<nav class="navbar navbar-light" style="background-color: #08088A;width: 100%;height: 25%;">
          <a class="navbar-brand">
-        	<h2 style="color: white;">Air Quality & Total Heat Index</h2>        	   					
+        	<h2 id="nav_tit" style="color: white;">Air Quality & Total Heat Index</h2>        	   					
        	 </a>
         
    			
   		
-            <form class="form-inline">
-                   
-                <button onclick="location.href='dashboard.php'" type="button" class="btn btn-success" style="color: white;">Dashboard</button>
-                
+            <form>
+
+                <button onclick="location.href='dashboard.php'" type="button" class="btn btn-success" id="btn_dash" style="color: white;">Dashboard</button>     
             </form>
 
 
@@ -85,10 +112,10 @@
     </nav>
 
 
-		<div class="bot">
+		<div class="container-fluid">
    
-		        <form class="form-inline" action="" method="GET" >
-
+		        <form  id="con_flu" action="" method="GET" >
+  				<div class="form-group">
 		            <select name="city" class="custom-select my-1 mr-sm-2"  id="inlineFormCustomSelectPref">
 		                <option selected>Select City</option>
 		                    <?php
@@ -123,7 +150,7 @@
 
 
 
-
+</div>
 		        </form>
 
 							        <!-- Modal -->
