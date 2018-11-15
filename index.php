@@ -66,11 +66,9 @@
     
 
 	<nav class="navbar navbar-light"" style="background-color: #08088A">
-        <a class="navbar-brand">
-        	
-        	<img src=""  class="d-inline-block align-top" alt="">
-   							 Bootstrap
-        </a>
+         <a class="navbar-brand">
+        	<h3 style="color: white;">Air Quality & Total Heat Index</h3>        	   					
+       	 </a>
         
    			
   		

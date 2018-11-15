@@ -14,7 +14,7 @@
 
 	<style>
 
-	h2{
+	h2, h3{
 		font-family: 'Oleo Script', cursive;
 		margin-left: 50px;
 		margin-top: 10px;
@@ -33,7 +33,7 @@
 		height: 550px;
 		background:#08088A;
 		color: white;
-		top: 53%;
+		top: 54%;
 		left: 10%;
 		position: absolute;
 		transform: translate(-50%,-50%);
@@ -46,9 +46,7 @@
 
 	<nav class="navbar navbar-light"" style="background-color: #08088A">
        	 <a class="navbar-brand">
-        	
-        	<img src=""  class="d-inline-block align-top" alt="">
-   							 Bootstrap
+        	<h2 style="color: white;">Air Quality & Total Heat Index</h2>        	   					
        	 </a>
         
    			
@@ -63,6 +61,7 @@
 
 
 	<div class="box">
+
   		<h2 style="margin-top: -45px;margin-left: 30px;">Select City</h2> 
    		<input style="width: 230px; margin-left: -15px; margin-bottom: 20px;" class="form-control mr-sm-2" type="search" placeholder="Search City" aria-label="Search">
  		
