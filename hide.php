@@ -44,12 +44,12 @@
         include "text.php";
 
     }else if ($_GET['AQ'] >= 151 && $_GET['THI'] >= 104 && $_GET['AQ'] <= 200 && $_GET['THI'] <= 125) {
-        $message = "WARNING! A high level of The Air Quality". $AQ." and the Total Heat Index".$THI." is Detected. Observe proper caution when you are outside and nausea is likely to happen. Be informed! Stay Alert!";
+        $message = "WARNING! A high level of The Air Quality". $AQ." and the Total Heat Index".$THI." is Detected. Dizziness and Fainting may occur. Observe caution and stay indoors Be informed! Stay Alert!";
         include "text.php";
         
     
      }else if ($_GET['AQ'] >= 201 && $_GET['THI'] >= 126 && $_GET['AQ'] <= 300 && $_GET['THI'] <= 137) {
-        $message = "DANGER! Where are in Extreme level of  Air Quality". $AQ." and the Total Heat Index".$THI.". The heat is prone to heat stroke and irritation of skin, wear face mask and umbrella. Call the emergency hot if needed!";
+        $message = "DANGER! Where are in Extreme level of  Air Quality". $AQ." and the Total Heat Index".$THI.". The heat is prone to heat stroke and irritation of skin, wear face mask and umbrella. Call the emergency hotline if needed!";
         include "text.php";
         
     }else{
