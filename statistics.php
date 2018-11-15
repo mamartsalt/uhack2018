@@ -54,7 +54,7 @@
            		 label: "Total Heat Index",
             		backgroundColor: '#1693DF',
             		borderColor: '#08088A',
-           		 data: [0, 10, 30, 2, 20, 30, 45],
+           		 data: [0, 10, 30, 90, 20, 30, 45],
         		}]
     		},
 
@@ -80,7 +80,7 @@
            		 label: "Total Heat Index",
             		backgroundColor: '#1693DF',
             		borderColor: '#08088A',
-           		 data: [0, 10, 30, 2, 20, 30, 45],
+           		 data: [0, 10, 30, 2, 20, 30, 45,],
         		}]
     		},
 
