@@ -42,6 +42,10 @@
 	<canvas id="myChart"  style="width: 10px;height: 2px;"></canvas>
 	<canvas id="myChart1" style="width: 10px;height: 2px;"></canvas>
 
+
+       
+
+
 	<script>
 
 			var ctx = document.getElementById('myChart').getContext('2d');
