@@ -241,7 +241,7 @@
                    		}
                    		else if ($AQ > 101 && $AQ <= 150 && $THI > 91 && $THI <= 103)
                    		{
-                   			echo "<h4 style='background-color: violet;'>Members of sensitive groups may experience health effects. The general public may not likely to be affected.</h4>";
+                   			echo "<h4 style='background-color: orange;'>Members of sensitive groups may experience health effects. The general public may not likely to be affected.</h4>";
                    		}
                    		else if ($AQ > 151 && $AQ <= 200 && $THI > 104 && $THI <= 125)
                    		{
@@ -268,22 +268,24 @@
 			   <script>
 						$('.js-gauge--1').kumaGauge({
 							value : Math.floor("<?php echo $AQ; ?>"),
-							max : 100,
+							max : 300,
 
 						});
 
 						$('.js-gauge--1').kumaGauge('update', {
 							value : Math.floor("<?php echo $AQ; ?>"),
-							max : 100,
+							max : 300,
 
 						});
 
 						$('.js-gauge--0').kumaGauge({
-							value : Math.floor("<?php echo $THI; ?>")
+							value : Math.floor("<?php echo $THI; ?>"),
+							max : 137,
 						});
 
 						$('.js-gauge--0').kumaGauge('update', {			
-							value : Math.floor("<?php echo $THI; ?>")
+							value : Math.floor("<?php echo $THI; ?>"),
+							max : 137,
 						});
 						
 		</script>
