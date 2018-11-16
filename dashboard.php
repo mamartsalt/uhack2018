@@ -145,16 +145,16 @@
 
 
   			<ul class="list-group" id="listc">
-  			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack/dashboard.php?city=manila">Manila</a></li>
-  			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack18/uhack2018/dashboard.php?city=cebu"> Cebu</a></li>
-  			<li class="list-group-item" style="color: black">Davao</li>
+  			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack18/uhack2018/dashboard.php?city=manila">Manila</a></li>
+  			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack18/uhack2018/dashboard.php?city=cebu">Cebu</a></li>
+  			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack18/uhack2018/dashboard.php?city=davao">Davao</a></li>
   			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack18/uhack2018/dashboard.php?city=iloilo">Iloilo</a></li>
-  			<li class="list-group-item" style="color: black">Makati</li>
-  			<li class="list-group-item" style="color: black">Quezon</li>
-  			<li class="list-group-item" style="color: black">Baguio</li>
-  			<li class="list-group-item" style="color: black">Tagaytay</li>
-  			<li class="list-group-item" style="color: black">Dumaguete</li>
-  			<li class="list-group-item" style="color: black">Albay</li>
+  			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack18/uhack2018/dashboard.php?city=makati">Makati</a></li>
+  			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack18/uhack2018/dashboard.php?city=quezon">Quezon</a></li>
+  			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack18/uhack2018/dashboard.php?city=baguio">Baguio</a></li>
+  			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack18/uhack2018/dashboard.php?city=tagaytay">Tagaytay</a></li>
+  			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack18/uhack2018/dashboard.php?city=dumaguete">Dumaguete</a></li>
+  			<li class="list-group-item" style="color: black"><a href="http://localhost/uhack18/uhack2018/dashboard.php?city=albay">Albay</a></li>
 
 		</ul>
 
