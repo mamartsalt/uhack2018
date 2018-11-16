@@ -9,6 +9,10 @@
 <body>
 
 	<style>
+		body{
+		background-image: url(image/back2.jpg);
+		background-size: 1550px 720px;
+		}
 
 		    
         .bot{

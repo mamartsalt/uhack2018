@@ -16,6 +16,11 @@
 
 
 	<style>
+	body{
+		background-image: url(image/back2.jpg);
+		background-size: 1550px 720px;
+		}
+
 
 	h2, h3{
 		font-family: 'Roboto', sans-serif;
@@ -128,7 +133,7 @@
    			
   		
           <form class="form-inline">
-               <button onclick="location.href='statistics.php'" type="button" class="btn btn-success" style="color: white;margin-right: 10px;">Statistics</button>
+              
                <button onclick="location.href='index.php'" type="button" class="btn btn-success" style="color: white;">HOME</button>
                 
           </form>
